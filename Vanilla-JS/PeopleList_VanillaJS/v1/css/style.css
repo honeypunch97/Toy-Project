@@ -1,0 +1,82 @@
+#wrap {
+   width: 585px;
+   margin: auto;
+}
+.inner {
+   width: 100%;
+   box-sizing: border-box;
+   position: relative;
+   padding: 40px;
+}
+.btn-wrap {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 35px;
+}
+.btn-wrap .btn {
+   width: 220px;
+   height: 60px;
+   padding: 0;
+   box-sizing: border-box;
+   background: white;
+   border: 1px solid #000;
+   font-size: 18px;
+   transition: 0.3s;
+   cursor: pointer;
+   text-align: center;
+   line-height: 60px;
+}
+.btn-wrap .btn:hover {
+   background: #000;
+   color: #fff;
+}
+.list-box {
+}
+.list-box li {
+   margin-bottom: 20px;
+   border: 1px solid #e2e2e2;
+   width: 100%;
+   padding: 20px 25px;
+   box-sizing: border-box;
+   display: flex;
+}
+.list-box li:last-child {
+   margin-bottom: 0;
+}
+.list-box li .img-box {
+   width: 110px;
+   height: 110px;
+   margin-right: 40px;
+}
+.list-box li .img-box img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.list-box li .text-box {
+   width: 250px;
+   height: 100%;
+}
+.list-box li .text-box p {
+   margin-bottom: 15px;
+   font-size: 18px;
+}
+.list-box li .text-box p:last-child {
+   margin-bottom: 0;
+}
+.list-box li .icon-box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   transition: 0.3s;
+}
+.list-box li .icon-box:hover {
+   transform: scale(1.2);
+}
+.list-box li .icon-box i {
+   font-size: 35px;
+}

@@ -1,0 +1,40 @@
+.main-book {  width: 100%; }
+.main-book h2 { text-align: center; font-size: 40px; padding: 50px 0; font-weight: 500;  }
+.main-book .inner { display: flex;  width: 1400px; margin: auto; justify-content: space-between; }
+.main-book  .inner > div { width: 49%; border: 1px solid #dcdcdc; box-sizing: border-box; padding: 30px; }
+.main-book  .book-input { }
+.main-book  .book-input .book-form { }
+.main-book  .book-input .book-form p {  margin-bottom: 20px; }
+.main-book  .book-input .book-form p label { display: block; margin-bottom: 10px; font-weight: 700; font-size: 20px;}
+.main-book  .book-input .book-form p input { width: 100%; height: 45px; border: 1px solid #999; padding:0 10px; box-sizing: border-box;}
+.main-book  .book-input .book-form button { display: block; width: 100%; height: 50px; background: #000; border: none; color:#fff; font-size: 18px; margin-top: 40px; cursor: pointer;  border-radius: 25px;}
+
+.main-book .book-list {}
+.main-book .book-list .book-table {}
+.main-book .book-list .book-table .title { width: 20%; }
+.main-book .book-list .book-table .author { width: 30%;}
+.main-book .book-list .book-table .bookcode { width: 30%;}
+.main-book .book-list .book-table .del {}
+.main-book .book-list .book-table th,.main-book .book-list .book-table td  { text-align: center; height: 50px; border-bottom: 1px solid #dcdcdc; vertical-align: middle; font-size: 18px;}
+.main-book .book-list .book-table th { border-bottom: 2px solid #000;}
+.main-book .book-list .book-table tr:nth-child(odd) td { background: rgba(232, 247, 253, 0.5);}
+.main-book .book-list .book-table button { width: 35px; height: 35px; border: none; background: #000; color:#fff }
+
+.main-book .show {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+    transition: 0.3s;
+    opacity: 1; text-align: center;
+
+}
+
+.main-book .show.on{
+    background: rgba(230, 135, 104, 0.3);    
+}
+.main-book .show.off{
+    background: rgba(35, 224, 177, 0.3);    
+}
+
+

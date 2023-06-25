@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">      
+</head>
+<body>
+    <section id="content" class="main-book">
+        <h2> 북카페 도서 관리 시스템 </h2>
+        <div class="inner">
+            <div class="book-input">
+                <form class="book-form">
+                    <p>
+                      <label for="title">장르</label>
+                      <input type="text" id="title" placeholder="북 장르입력 (소설)">
+                    </p>
+                    <p>
+                      <label for="author">저자</label>
+                      <input type="text" id="author" placeholder="저자 입력 (임수정)">
+                    </p>
+                    <p>
+                      <label for="bookcode">책 코드</label>
+                      <input type="text" id="bookcode" placeholder="책 코드 입력 (00001)">
+                    </p>
+
+                    <p><button class="btn">추가</button></p>
+                  </form>
+            </div>
+
+
+            <div class="book-list">
+                <table class="book-table">
+                    <caption>
+                        도서 관리 시스템
+                    </caption>
+                    <colgroup>
+                          <col class="title" >  
+                          <col class="author" >  
+                          <col class="bookcode" >  
+                          <col class="del" >  
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>장르</th>
+                            <th>저자</th>
+                            <th>코드</th>
+                            <th>관리</th>
+                        </tr>                        
+                    </thead>
+                    <tbody class="book-tbody">
+                        <!-- <tr>
+                            <td>소설</td>
+                            <td>소설</td>
+                            <td>소설</td>
+                            <td><button class="delete">X</button></td>
+                        </tr>  -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- <div class="show on">
+            메세지 출력
+        </div> -->
+
+    </section>
+    
+    <script src="js/main.js"> </script>    
+</body>
+</html>
