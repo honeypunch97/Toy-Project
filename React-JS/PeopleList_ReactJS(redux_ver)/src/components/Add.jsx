@@ -1,12 +1,17 @@
 import React, { memo } from 'react';
 import AddForm from './AddForm';
+import AddImgList from './AddImgList';
+import { AddContainer } from './styled.jsx/PeopleStyle';
 
 const Add = memo(() => {
    return (
-      <div>
+      <AddContainer>
          <h2>Add</h2>
-         <AddForm />
-      </div>
+         <div className="add-box">
+            <AddForm />
+            <AddImgList />
+         </div>
+      </AddContainer>
    );
 });
 

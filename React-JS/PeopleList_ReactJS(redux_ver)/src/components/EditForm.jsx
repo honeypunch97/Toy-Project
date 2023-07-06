@@ -1,30 +1,34 @@
-import React, { memo, useState } from 'react';
+import React, { memo, useEffect, useState } from 'react';
 import { FormContainer } from './styled.jsx/PeopleStyle';
-import { useDispatch } from 'react-redux';
-import { add } from '../store/modules/peopleSlice';
-import { useNavigate } from 'react-router-dom';
+import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate, useParams } from 'react-router-dom';
+import { edit } from '../store/modules/peopleSlice';
+import Swal from 'sweetalert2';
 
-const AddForm = memo(() => {
+const EditForm = memo(() => {
+   const { editID } = useParams();
+   const { peopleData } = useSelector(state => state.people);
    const dispatch = useDispatch();
-   const [addItem, setAddItem] = useState({ name: '', job: '', tel: '', img: '' });
-   const { name, job, tel, img } = addItem;
+   const [editItem, setEditItem] = useState({ id: 0, name: '', job: '', tel: '', img: '', isLike: false });
+   const { id, name, job, tel, img, isLike } = editItem;
    const navigate = useNavigate();
    const changeInput = e => {
       const { name, value } = e.target;
-      setAddItem({ ...addItem, [name]: value });
+      setEditItem({ ...editItem, [name]: value });
    };
    const onSubmit = e => {
       e.preventDefault();
-      dispatch(add(addItem));
-      setAddItem({ name: '', job: '', tel: '', img: '' });
+      dispatch(edit(editItem));
       Swal.fire({
          icon: 'success',
-         title: '추가 완료',
-         showConfirmButton: false,
-         timer: 1500,
+         title: '수정 완료',
       });
       navigate('/');
    };
+   useEffect(() => {
+      setEditItem(peopleData.find(item => item.id === Number(editID)));
+   }, [editID]);
+
    return (
       <FormContainer className="add-form" onSubmit={onSubmit}>
          <label>이름</label>
@@ -43,10 +47,10 @@ const AddForm = memo(() => {
             value={img}
          />
          <div className="btn-wrap">
-            <button type="submit">등록</button>
+            <button type="submit">변경</button>
          </div>
       </FormContainer>
    );
 });
 
-export default AddForm;
+export default EditForm;

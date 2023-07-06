@@ -6,6 +6,8 @@ import Edit from './components/Edit';
 import Add from './components/Add';
 import { MainContainer, Wrap } from './components/styled.jsx/PeopleStyle';
 import Header from './components/Header';
+import Login from './components/Login';
+import Logout from './components/Logout';
 
 const App = () => {
    return (
@@ -16,6 +18,8 @@ const App = () => {
                <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/add" element={<Add />} />
+                  <Route path="/login" element={<Login />} />
+                  <Route path="/logout" element={<Logout />} />
                   <Route path="/edit">
                      <Route path=":editID" element={<Edit />} />
                   </Route>
