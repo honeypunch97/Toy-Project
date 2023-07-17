@@ -1,0 +1,46 @@
+.todo {
+   width: 300px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 30px;
+   box-sizing: border-box;
+   margin: auto;
+}
+.todo h2 {
+   font-size: 60px;
+}
+.todo form {
+   margin-bottom: 50px;
+   display: flex;
+}
+.todo form input {
+   width: 200px;
+   height: 30px;
+   padding: 10px;
+   box-sizing: border-box;
+}
+.todo form button {
+   width: 50px;
+   height: 30px;
+   box-sizing: border-box;
+}
+.todo ul {
+   width: 100%;
+}
+.todo ul li {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+.todo ul li.chk {
+   text-decoration: line-through;
+   color: tomato;
+}
+.todo ul li input {
+}
+.todo ul li span {
+}
+.todo ul li.chk button {
+}
