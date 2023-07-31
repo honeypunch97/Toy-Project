@@ -26,7 +26,7 @@ step2 - 클래스로 교체
 
 step3 - 기능클래스와 UI클래스 분리, 로컬스토리지로 값 저장
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/Vanilla-JS/LibraryManagement_VanillaJS/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/Vanilla-JS/LibraryManagement_VanillaJS#readme)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/Vanilla-JS/LibraryManagement_VanillaJS/)
 
@@ -73,7 +73,7 @@ v3 - 모듈화 진행, 수정기능 추가, 화면 너비제한 추가
 
 pixabay api를 이용한 이미지 검색, react masonry 사용, 검색 로그 기능
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/Gallery/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/React-JS/Gallery#readme/)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/Gallery/dist/)
 
@@ -83,7 +83,7 @@ pixabay api를 이용한 이미지 검색, react masonry 사용, 검색 로그 �
 
 scss사용, 데이터 직접수집 한게 인상적(다음에는 네이버 api 사용하자)
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/InfiniteChallenge/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/React-JS/InfiniteChallenge#readme/)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/InfiniteChallenge/dist/)
 
@@ -93,7 +93,7 @@ scss사용, 데이터 직접수집 한게 인상적(다음에는 네이버 api �
 
 개발속도가 매우 빨라짐
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/LibraryManagement/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/React-JS/LibraryManagement#readme/)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/LibraryManagement/dist/)
 
@@ -105,7 +105,7 @@ redux 익숙해지게 연습, context로도 해봤는데 날라간듯
 
 개인적으로 context보다 redux가 사용하기 더 편함
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/LibraryManagement_redux/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/React-JS/LibraryManagement_redux#readme/)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/LibraryManagement_redux/dist/)
 
@@ -117,7 +117,7 @@ redux 익숙해지게 연습, context로도 해봤는데 날라간듯
 
 다음에는 이미지도 제공하는 api를 찾거나, 두개의 api를 합쳐 보강하면 좋을 듯
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/MegaBox/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/React-JS/MegaBox#readme/)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/MegaBox/dist/)
 
@@ -127,7 +127,7 @@ redux 익숙해지게 연습, context로도 해봤는데 날라간듯
 
 react, scss 사용
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/PeopleList/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/React-JS/PeopleList#readme/)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/PeopleList/dist)
 
@@ -137,7 +137,7 @@ react, scss 사용
 
 react, redux, styled-components, ui개편, auth기능 추가
 
-[설명 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/PeopleList_redux/dist/)
+[설명 보러가기](https://github.com/honeypunch97/Toy-Project/tree/main/React-JS/PeopleList_redux#readme/)
 
 [페이지 보러가기](https://honeypunch97.github.io/Toy-Project/React-JS/PeopleList_redux/)
 
